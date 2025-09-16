@@ -1,8 +1,7 @@
 {
-  "name": "Scrim-s04vvhd",
+  "name": "scrim-s04vvhd",
   "description": "https://scrimba.com/frontend-path-c0j/~0vh/s0182971i0",
   "scripts": {
-    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -11,6 +10,9 @@
     "html-entities": "^2.6.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.2",
