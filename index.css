@@ -106,19 +106,29 @@ p {
     gap: .5rem;
     flex-wrap: wrap;
 }
+@media (max-width: 720px ) {    
+    .answer-container {
+        justify-content: center;
+    }
+  .answer-buttons {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    min-width: 100px;
+  }
+}
 .answer-buttons {
     border: .79px solid #4D5B9E;
     font-family: "Inter", sans-serif;
     border-radius: 7.94px;
-    min-width: 6px;
-    padding: .25rem .5rem .25rem .5rem;
+    padding: 0.5rem 1rem;
     color: #293264;
     font-weight: 500;
     font-size: 1rem;
-    z-index: 1000;
-    width: 100%;
-    max-width: 150px;
-    box-sizing: border-box;
+    flex: 1 1 auto; 
+    min-width: 120px; 
+    max-width: 100%;
+    text-align: center;
+    word-wrap: break-word;
 }
 hr {
     margin: 1.5rem 0;
