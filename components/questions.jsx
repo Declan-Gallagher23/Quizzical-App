@@ -19,7 +19,7 @@ export default function questions() {
 
     useEffect(() => {
         setLoading(true)
-        fetch("https://opentdb.com/api.php?amount=5&category=9&difficulty=medium&type=multiple")
+        fetch("https://opentdb.com/api.php?amount=5&category=9&difficulty=easy&type=multiple")
         .then((res)=> res.json())
         .then((data)=> {
             const processedData = data.results.map(item => {
